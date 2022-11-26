@@ -6,7 +6,7 @@ const ACCESS_TOKEN_KEY = 'access_token';
 
 const CLIENT_ID = 'olNsNYvjtH2gz2fkOzOHVOp48uYZcXQk';
 const CLIENT_DOMAIN = 'unicoder.auth0.com';
-const REDIRECT = 'http://localhost:3000/callback';
+const REDIRECT = 'https://movicritics.vercel.app/callback';
 const SCOPE = 'openid email profile';
 const AUDIENCE = 'http://rottentomatoes.com';
 
