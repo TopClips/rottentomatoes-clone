@@ -8,7 +8,7 @@ const CLIENT_ID = 'VbFXkSMcG3PFGeaQFNeNn59wGRhGpm2x';
 const CLIENT_DOMAIN = 'dev-rk7d7dkzlmnpms28.us.auth0.com';
 const REDIRECT = 'http://localhost:3000';
 const SCOPE = 'openid email profile';
-const AUDIENCE = 'http://movicritics.vercel.app/callback';
+const AUDIENCE = 'https://movicritics.vercel.app/callback';
 
 var auth = new auth0.WebAuth({
   clientID: CLIENT_ID,
